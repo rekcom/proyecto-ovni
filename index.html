@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyecto OVNI</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛸 Proyecto OVNI - GSP823</h1>
+
+  <div class="section">
+    <h2>🔄 Proceso ETL</h2>
+    <p>Se realizó la ingesta, transformación y carga de datos en BigQuery utilizando Cloud Storage y Dataprep.</p>
+    <h3>Evidencias del Proceso:</h3>
+    <img src="evidencias/capturas_bucket.png" alt="Captura de Bucket">
+    <img src="evidencias/dataprep_limpieza.png" alt="Limpieza con Dataprep">
+    <img src="evidencias/carga_bigquery.png" alt="Carga en BigQuery">
+    <img src="evidencias/consultas_bigquery.png" alt="Consultas en BigQuery">
+  </div>
+
+  <div class="section">
+    <h2>📊 Visualizaciones</h2>
+    <ul>
+      <li>Gráfico de torta: Top 5 formas de objetos</li>
+      <li>Gráfico de barras: Avistamientos por año</li>
+      <li>Gráfico de mapa: Avistamientos por estado</li>
+    </ul>
+    <p>Visualizaciones generadas con Looker Studio.</p>
+    <h3>Gráficos:</h3>
+    <img src="evidencias/looker_graficos.png" alt="Gráficos de Looker Studio">
+  </div>
+
+  <div class="section">
+    <h2>📁 Evidencias</h2>
+    <p>Capturas de pantalla del proceso completo disponibles en el repositorio.</p>
+  </div>
+
+  <div class="section">
+    <h2>🔗 Enlaces</h2>
+    <ul>
+      <li><a href="https://github.com/rekcom/ovni-avistamientos" target="_blank">Repositorio en GitHub</a></li>
+      <li><a href="https://lookerstudio.google.com/reporting/tu-reporte" target="_blank">Reporte en Looker Studio</a></li>
+    </ul>
+  </div>
+</body>
+</html>
